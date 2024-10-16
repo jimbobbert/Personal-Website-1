@@ -1,0 +1,61 @@
+body {
+    font-family: 'Inter';
+	margin: 0;
+	background: url('topography.png') repeat, #1a1a1a;
+	user-select: none;
+	text-decoration: none; 
+}
+
+.socialsbox {
+	position: absolute;
+	height: 25%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.socialsimg {
+	height: 25%;
+	opacity: 25%;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
+.centeredbgb:hover .socialsimg{
+	filter: invert(76%) sepia(93%) saturate(740%) hue-rotate(285deg) brightness(101%) contrast(104%);
+	transition: 1s;
+	opacity: 65%;
+	transition-delay: 0.1s;
+}
+
+.centeredbgb:hover .SocialTexts{
+	font-weight: 900;
+	font-size: 150%;
+	transition: 1s;
+	opacity: 100%;
+	transition-delay: 0.1s;
+	transition-timing-function: cubic-bezier(.04,.64,.3,.94)
+}
+
+.centeredbgb{
+	margin-left: 0.5em;
+	position: relative;
+	display: inline-block;
+	width:auto;
+	bottom: -webkit-calc(-70%);
+	bottom:calc(-70%);
+}
+.SocialTexts{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -115%);
+	font-size: 75%;
+	opacity: 25%;
+	color: white;
+	font-weight: 500;
+}
+
